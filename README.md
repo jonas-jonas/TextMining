@@ -55,3 +55,7 @@ source env/bin/activate
 # Install the packages
 pip install -r requirements.txt
 ```
+
+# Pre trained sentiment analysis models
+
+- https://app.monkeylearn.com/main/classifiers/cl_pi3C7JiL/
