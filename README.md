@@ -40,17 +40,17 @@ Eine Web-Applikation, die die Ergebnisse des *Analyzers* mithilfe von Diagrammen
 
 ## Installation
 
-_The installation istructions are currently only for Ubuntu 18.10._
+_The installation istructions are currently only for Ubuntu (tested on 18.10 and 19.04)._
 
 ```
 # Install required packages
 sudo apt install python3-pip python-virtualenv
 
-# Setup the venv
-virtualenv -p /usr/bin/python3 venv
+# Setup the virtual env
+virtualenv -p /usr/bin/python3 env
 
 # Activate the venv
-source venv/bin/activate
+source env/bin/activate
 
 # Install the packages
 pip install -r requirements.txt

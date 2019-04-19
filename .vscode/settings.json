@@ -1,5 +1,10 @@
 {
-    "python.pythonPath": "venv/bin/python",
+    "python.pythonPath": "env/bin/python",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#4B2021",
+        "titleBar.activeBackground": "#692D2F",
+        "titleBar.activeForeground": "#FEFCFC"
+    }
 }
