@@ -1,0 +1,3 @@
+# Don't commit passwords/secrets
+praw.ini
+database.ini

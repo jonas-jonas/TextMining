@@ -1,0 +1,13 @@
+; comment_kind=t1
+; message_kind=t4
+; redditor_kind=t2
+; submission_kind=t3
+; subreddit_kind=t5
+; trophy_kind=t6
+
+; Rename this file to praw.ini (without.example) and insert the required tokens from reddit (https://www.reddit.com/prefs/apps/)
+
+[textminingscript]
+client_id=
+client_secret=
+user_agent=
