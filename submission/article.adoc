@@ -1,0 +1,31 @@
+= Sentiment Analysis using spaCy
+Jonas Hungershausen <jonas.hungershausen@gmail.com>
+:doctype: book
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+:icons: font
+:toc:
+:toc-title: Inhalt
+:title-logo-image: image:images/logo.png[width=250,align=center]
+
+// list{empty}footnote:[AsciiDoc supports unordered, ordered, and description lists.]
+
+== Einleitung und Analyseziele
+
+=== Strategien
+
+== 1st Level Analysis
+
+// Patente pro Jahr in B64G
+
+== 2nd Level Analysis
+
+// 1st Lvl wird durch Ergänzung der Länder erweitert
+[source, python]
+----
+----
+
+== Mapping
+
+== Zusammenfassung

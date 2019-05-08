@@ -14,4 +14,13 @@
     "[html]": {
         "editor.tabSize": 2
     },
+    "spellright.language": [
+        "deutsch"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "asciidoc"
+    ],
 }
