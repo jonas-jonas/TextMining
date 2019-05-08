@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Posts</h1>
+<table>
+  <thead>
+    <tr>
+      <td>Post Title</td>
+      <td>Subreddit</td>
+      <td>Comments</td>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for post in posts%}
+    <tr>
+      <td>
+        <a href="/post/{{post.id}}">{{post.title}}</a>
+      </td>
+      <td>{{post.subreddit}}</td>
+      <td>{{post.comments}}</td>
+      <td>
+        <a href="{{post.url}}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

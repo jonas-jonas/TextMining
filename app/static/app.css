@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+}
+
+.card {
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    background-color: #fafafb;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.tag {
+    font-size: 1rem;
+    border-radius: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    font-weight: 600;
+    padding: 1px 4px;
+    background-color: #eaeaea;
+    text-transform: uppercase;
+    border: 2px solid #2c2c29;
+    cursor: grab;
+}
+
+.tag.warn {
+    background-color: #E7DD0C;
+}
+
+.tag.error {
+    background-color: #D60A64;
+    color: #fff;
+}
+
+.tag.success {
+    background-color: #00A642;
+}
+
+button.tag, a.tag {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+button.tag {margin: 0;}
+.tag-form {
+    display: inline-block;
+    margin: 0;
+    /* vertical-align: -webkit-baseline-middle; */
+}
+
+.post-title {
+    margin: 0;
+}
+
+i.fas.fa-sync {
+    animation: fa-spin 1.2s infinite linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(361deg);
+    }
+}
