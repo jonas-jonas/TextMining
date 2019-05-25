@@ -1,0 +1,18 @@
+= Title Slide
+:revealjs_theme: white
+
+== Slide One
+
+* Foo
+* Bar
+* World
+
+== Slide Two
+
+A Great Story
+
+[.notes]
+--
+* tell anecdote
+* make a point
+--
