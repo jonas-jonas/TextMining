@@ -1,6 +1,6 @@
 {
-    "python.pythonPath": "env/bin/python3",
-    "python.linting.pylintEnabled": true,
+    "python.pythonPath": ".env/bin/python",
+    "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
     "files.exclude": {
         "**/.git": true,
@@ -23,4 +23,5 @@
         "plaintext",
         "asciidoc"
     ],
+    "python.linting.flake8Enabled": true,
 }
