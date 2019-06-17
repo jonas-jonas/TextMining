@@ -1,0 +1,50 @@
+= Sentiment Analyse mit spaCy
+//:revealjs_theme: simple
+:source-highlighter: highlightjs
+//:highlightjs-theme: default
+
+== !
+
+[quote, Wikipedia]
+Sentimentanalyse [...] bezeichnet die automatische Auswertung von Texten mit dem Ziel, eine geäußerte Haltung als positiv oder negativ zu erkennen.
+
+== Verschiedene Ansätze
+
+- Bag of Words
+- Deep Learning
+
+[.notes]
+--
+- Bag of Words:
+    Liste von Wörtern werden direkt miteinander verglichen
+--
+
+== Testdaten
+
+- Set von Sätzen mit vorbestimmten Stimmungen
+- Quellen: Amazon, IMDB, Yelp
+- n = 3000 (1500 negativ, 1500 positiv)
+- Manuell gelabelt von der University of California, Irvine
+
+== Stimmungsanalyse
+
+=== Vorgehen
+
+== Ergebnisse
+
+image::./plot_eval.png[]
+
+== Zeit
+
+image::./plot_time.png[]
+
+=== !
+
+*SentA*: 52 Minuten 52 Sekunden
+
+*TextBlob*: 432 Millisekunden
+
+=== ≈ 0,01%
+
+== Fazit
+
